@@ -41,11 +41,11 @@ function storage(event){
 
 //obtain hour from button clicked//
 
-    var hourClicked = $(event.target).data("hour");
+    var hourClicked = $(this).data("hour");
 
 //obtain info from text area
 
-    var info = $(event.target).prev().val(); 
+    var info = $(this).prev().val(); 
 
     localStorage.setItem("scheduled-hour-"+ hourClicked, info);
     // console.log(localStorage);

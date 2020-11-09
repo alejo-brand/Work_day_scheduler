@@ -9,3 +9,5 @@ on each time slot, the user will be able to type all the activities they want to
 Everytime that the user clicks the save button, it will cause that the app will save all the content provided in the text area for that specific hour, but the information saved will remain displayed in the text area even if the user refreshes the browser page.
 
 below you can find a sample of the deployed application.
+
+![image](https://user-images.githubusercontent.com/69653106/98604687-fe321300-2298-11eb-8989-1760ad4fd69c.png)
