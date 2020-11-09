@@ -28,3 +28,22 @@ function updateTimeCells(now=moment()){
 updateTimeCells();
 
 
+$(".container").on("click", "button", storage );
+
+function storage(event){
+    event.preventDefault();
+
+//obtain hour from button clicked//
+
+    var hourClicked = $(event.target).data("hour");
+
+//obtain info from text area
+
+    var info = $(event.target).prev().val(); 
+
+    localStorage.setItem("scheduled-hour-"+ hourClicked, info);
+    // console.log(localStorage);
+
+storage(event);
+};
+ 
